@@ -1,4 +1,5 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "QDOSMSQ"
-theme = "silhouette-hugo"
+#theme = "silhouette-hugo"
+theme = "Hugo-Octopress"
