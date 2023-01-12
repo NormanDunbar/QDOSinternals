@@ -1,5 +1,13 @@
-baseURL = "http://example.org/"
+baseURL = "https://qdosinternals.netlify.app/"
 languageCode = "en-us"
 title = "QDOSMSQ"
 #theme = "silhouette-hugo"
 theme = "Hugo-Octopress"
+
+author = "Norman Dunbar"
+searchEngineURL = "https://www.google.com/search"
+rss = true
+github = "https://github.com/NormanDunbar/"
+twitter="NormanDunbar"
+mastodon="NormanDunbar@mastodon.scot"
+

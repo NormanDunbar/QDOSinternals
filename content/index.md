@@ -1,3 +1,7 @@
+---
+title: "Welcome"
+date: 2021-12-13T16:13:07Z
+---
 ## Introduction
 
 Welcome to **QDOSMSQ.Dunbar-it.co.uk** the new home of the web site
@@ -171,7 +175,7 @@ The following are links to charities that myself and my wife, support.
 Please feel free to visit and maybe make a donation. Thanks.
 
 * [MacMillan Cancer Support](https://www.macmillan.org.uk/)
-* [Bees For Development](http://www.beesfordevelopment.org/)
+* [Bees For Development](https://www.beesfordevelopment.org/)
 * [Chicken Out](https://www.rivercottage.net/campaigns/chicken-out)
 * [The Dogs Trust](https://www.dogstrust.org.uk/)
 * [World Wide Fund for Nature (WWF)](https://www.wwf.org.uk/)
