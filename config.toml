@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://qdosinternals.netlify.app/'
 languageCode = 'en-gb'
 theme = 'dot-hugo-documentation-theme'
 title = "QDOS & SMSQ/E Internals"
