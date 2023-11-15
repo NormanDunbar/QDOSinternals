@@ -1,13 +1,128 @@
-baseURL = "https://qdosinternals.netlify.app/"
-languageCode = "en-us"
-title = "QDOSMSQ"
-#theme = "silhouette-hugo"
-theme = "Hugo-Octopress"
+baseURL = 'http://example.org/'
+languageCode = 'en-gb'
+theme = 'dot-hugo-documentation-theme'
+title = "QDOS & SMSQ/E Internals"
 
-author = "Norman Dunbar"
-searchEngineURL = "https://www.google.com/search"
-rss = true
-github = "https://github.com/NormanDunbar/"
-twitter="NormanDunbar"
-mastodon="NormanDunbar@mastodon.scot"
+#### ------------------------------------------------------------------------------------
+#### See https://docs.gethugothemes.com/dot/variables-plugins/ for customisation options.
+#### ------------------------------------------------------------------------------------
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+    # customize color
+    primary_color = "#336699"
+    body_color = "#e6e6e6"
+    text_color = "#636363"
+    text_color_dark = "#242738"
+    white_color = "#ffffff"
+    light_color = "#f8f9fa"
+    border_color = "6a8195"
+    
+    # font family
+    font_family = "lato" # Choose font family from : https://fonts.google.com/
+
+############################## social links ##############################
+#[[params.social]]
+#icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+#name = "Facebook"
+#link = "#"
+
+[[params.social]]
+icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+name = "Twitter"
+link = "https://twitter.com/NormanDunbar"
+  
+[[params.social]]
+icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
+name = "GitHub"
+link = "https://github.com/NormanDunbar"
+
+[[params.social]]
+icon = "ti-user" # themify icon pack : https://themify.me/themify-icons
+name = "GitLab"
+link = "https://gitlab.com/NormanDunbar"
+  
+[[params.social]]
+icon = "ti-layout-grid3" # themify icon pack : https://themify.me/themify-icons
+name = "Mastodon"
+link = "https://mastodon.scot/@NormanDunbar"
+
+[[params.social]]
+icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+name = "Linkedin"
+link = "#"
+
+################################ English Language ######################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+weight = 1
+copyright = "Copyright &copy; 2021 a Hugo theme by [Gethugothemes](https://gethugothemes.com/)"
+
+# banner
+[Languages.en.params.banner]
+title = "QDOS & SMSQ/E Internals Knowledge base"
+subtitle = "Find advice and answers to almost all your questions about the internals of QDOS and/or SMSQ/E. (Hopefully!)"
+bg_image = "images/banner.jpg"
+placeholder = "Have a question? Just ask here or enter terms"
+
+# call to action
+[Languages.en.params.cta]
+enable = true
+title = "Didn't find an answer to your question?"
+content = "You should definitely be able to get help either from the [QL Forum](https://qlforum.co.uk), the [QL Wiki](https://qlwiki.qlforum.co.uk) or from a contact on the Social Media sites linked below, right, on this, and every other page."
+
+# call to action button
+[Languages.en.params.cta.button]
+enable = true
+label = "contact us"
+link = "contact/"
+
+################## english navigation #################
+[[Languages.en.menu.main]]
+name = "Home"
+url = ""
+weight = 10
+
+#[[Languages.en.menu.main]]
+#name = "Faq"
+#url = "faq/"
+#weight = 20
+
+[[Languages.en.menu.main]]
+name = "contact"
+url = "contact/"
+weight = 30
+
+# Dropdown menu
+[[Languages.en.menu.main]]
+weight = 40
+name = "Documentation"
+hasChildren = true
+
+  [[Languages.en.menu.main]]
+  parent = "Documentation"
+  name = "Traps"
+  url = "traps/"
+  weight = 10
+
+  [[Languages.en.menu.main]]
+  parent = "Documentation"
+  name = "Vectors"
+  url = "vectors/"
+  weight = 20
+
+  [[Languages.en.menu.main]]
+  parent = "Documentation"
+  name = "Jobs"
+  url = "jobs/"
+  weight = 30
+
+  [[Languages.en.menu.main]]
+  parent = "Documentation"
+  name = "Error Codes"
+  url = "errors/"
+  weight = 40
 
